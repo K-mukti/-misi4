@@ -1,0 +1,140 @@
+body {
+    font-family: 'Times New Roman', Times, serif,;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+
+#time p {
+    margin: 0;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a7a7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0c5c1d;
+}
+
+h2 {
+    color: #555;
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.task-text {
+    flex: 1;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.checkbox {
+    margin-right: 15px;
+}
+
+.priority-low {
+    background-color: #eaf17e;
+}
+
+.priority-medium {
+    background-color: #fff3cd;
+}
+
+.priority-high {
+    background-color: #f57a84;
+}
+
+.remove-task-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-task-btn:hover {
+    background-color: #c82333;
+}
+
+#clear-all-btn {
+    margin-top: 20px;
+    background-color: #86daa2;
+    color: #000000;
+}
+
+#clear-all-btn:hover {
+    background-color: #55471f;
+}
+
